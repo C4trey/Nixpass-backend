@@ -1,0 +1,32 @@
+# Variables de entorno y secretos (¡CRÍTICO!)
+.env
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cachés y dependencias
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.tox/
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+
+# Archivos de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
